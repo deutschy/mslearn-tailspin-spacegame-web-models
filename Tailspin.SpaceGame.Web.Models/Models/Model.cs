@@ -10,5 +10,10 @@ namespace TailSpin.SpaceGame.Web.Models
         // The value that uniquely identifies this object.
         [JsonPropertyName("id")]
         public string Id { get; set; }
+
+            // The game style (difficulty) the score is associated with.
+        [JsonPropertyName("gameStyle")]
+        public string GameStyle { get; set; }
     }
+
 }
